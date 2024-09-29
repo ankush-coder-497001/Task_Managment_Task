@@ -1,0 +1,26 @@
+GET  HTTP/1.1 http://localhost:5000/User/users HTTP/1.1
+content-type: application/json
+
+
+
+# {
+#   "title": "Complete project report",
+#   "description": "Finish the final report for the project.",
+#   "dueDate": "2024-10-05T00:00:00.000Z",
+#   "status": "Pending",
+#   "assignedEmail": "ankuscoder497001@gmail.com", // Use email here
+#   "priority": "High"
+# }
+
+# Post  HTTP/1.1  http://localhost:5000/Task/Create HTTP/1.1
+# content-type: application/json
+
+# {
+#   "title": "Complete project report",
+#   "description": "Finish the final report for the project.",
+#   "dueDate": "2024-10-05T00:00:00.000Z",
+#   "status": "Pending",
+#   "assignedEmail": "ankuscoder497001@gmail.com", // Use email here
+#   "priority": "High"
+# }
+

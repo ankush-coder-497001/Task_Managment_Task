@@ -1,0 +1,64 @@
+.nav-but{
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-card{
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.my-card:hover{
+  transition: all 0.2s ease-in-out;
+  transform: scale(1.1);
+}
+
+.in-div{
+  width: 500px;
+}
+
+.my-in{
+  width: 100%;
+}
+
+.my-form{
+  height: 50vh;
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.my-form-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  position: absolute;
+  top: 50px;
+  left: 30%;
+  transition: all 0.2s ease-in-out;
+  background-color: white;
+}
+
+.in{
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.up-but{
+  height: 40px;
+  width: 100px;
+  /* border: 2px solid; */
+  border-radius: 5px;
+  background: greenyellow;
+  box-shadow: 5px 5px 5px #00000033;
+}
